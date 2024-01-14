@@ -40,10 +40,12 @@ los últimos cuatro.
 * No debes poder ingresar un campo vacío.  
 * Hito Opcional: Mostrar la franquicia de tarjeta
 
-* Principales usuarios de producto.
+*a.  Principales usuarios de producto.*
+
 Los principales usuarios de este producto son aquellos que necesitan validar y verificar la autenticidad de números de tarjetas, en particular, aquellos vinculados a transacciones financieras. Esto incluye a individuos que desean asegurarse de la validez de sus propias tarjetas de crédito y profesionales que trabajan en entornos financieros, como instituciones bancarias o empresas que procesan transacciones con tarjetas. La interfaz diseñada facilita a los usuarios la inserción y validación de números de tarjeta, ofreciendo una funcionalidad clara para determinar si el resultado es válido o no. La ocultación de la mayoría de los dígitos, excepto los últimos 4, sugiere una atención a la privacidad y seguridad de la información del usuario, lo que puede atraer especialmente a aquellos preocupados por la protección de sus datos financieros. Además, la capacidad opcional de mostrar la franquicia de tarjeta puede ser útil para usuarios que deseen confirmar el tipo de tarjeta que están utilizando.
 
-* Objetivos de estos usuarios en relación con tu producto.
+*b. Objetivos de estos usuarios en relación con tu producto.*
+
 Los objetivos de los usuarios en relación con este producto son:
 
 **1. Validación de Tarjetas de Crédito:**
@@ -61,7 +63,8 @@ Opcionalmente, confirmar la franquicia de la tarjeta para asegurarse de que est�
 Realizar la validación de manera eficiente y sin complicaciones a través de una interfaz fácil de usar, especialmente para usuarios que trabajan en entornos financieros y necesitan realizar esta verificación de manera rápida y precisa.
 En resumen, los usuarios buscan una herramienta que les permita validar fácilmente los números de tarjeta, garantizando la seguridad y privacidad de la información, y ofreciendo eficiencia en el proceso de validación para facilitar transacciones financieras seguras.
 
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
+*c. Este producto cómo resuelve los problemas de los usuarios.*
+
 El producto que estoy creando aborda de manera efectiva las necesidades y problemas de los usuarios al proporcionar una interfaz diseñada para facilitar la validación de números de tarjetas de crédito. Aquí están algunas maneras en que el producto resuelve los problemas identificados:
 
 **1. Validación Eficiente:**
@@ -70,11 +73,11 @@ La interfaz permite a los usuarios insertar números de tarjetas y verificar ins
 
 **2. Privacidad y Seguridad:**
 La función de ocultar la mayoría de los dígitos, excepto los últimos 4, aborda las preocupaciones de privacidad y seguridad, permitiendo a los usuarios realizar la validación sin revelar la información completa de la tarjeta. Además, la restricción de no permitir campos vacíos contribuye a la seguridad al evitar entradas incompletas o malintencionadas.
-![Enmascaramiento de numeros, solo mostrar los 4 digitos finales](./src/imagenes/ENMASCARAMIENTO%20DE%20NUMEROS.png)
+![Enmascaramiento de números, solo mostrar los 4 digitos finales](./src/imagenes/ENMASCARAMIENTO%20DE%20NUMEROS.png)
 
 **3. Identificación de Franquicia (opcional):**
 La capacidad opcional de mostrar la franquicia de la tarjeta cumple con el objetivo de algunos usuarios de confirmar el tipo de tarjeta que están utilizando, proporcionando información adicional según sea necesario.
-![Imagen de identificacion de franquicia](./src/imagenes/IDENTIFICACCION%20DE%20FRANQUICIA.png)
+![Imagen de identificación de franquicia](./src/imagenes/IDENTIFICACCION%20DE%20FRANQUICIA.png)
 
 **4. Interfaz Amigable:**
 La interfaz fácil de usar facilita a los usuarios, tanto individuales como profesionales financieros, realizar la validación de manera rápida y sin complicaciones. Esto aborda la necesidad de eficiencia en el proceso.
