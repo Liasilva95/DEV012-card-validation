@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Niramit&display=swap" rel="stylesheet">
+<link rel="icon" href="./imagenes/LOGO.ICO.ico" />
+
+</head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title">Pago con tarjeta</div>
+        <br>
+        <div class="creditCard">Tarjetas de crédito</div>
+        <section class="logosCreditCard">
+        <img class="image" src="./imagenes/VISA.png" alt="">
+        <img class="image" src="./imagenes/AMERICAN EXPRESS.png" alt="">
+        <img class="imagen" src="./imagenes/DINERS CLUB.png" alt="">
+        <img class="image" src="./imagenes/JCB britanico.png" alt="">
+        <img class="image" src="./imagenes/MASTERCARD.png" alt="">
+        <img class="imagen" src="./imagenes/DISCOVER.png" alt="">
+      </section>
+      <br>
+        <div class="debitCard">Tarjetas de débito</div>
+        <section class="logosDebitCard">
+        <img class="imagen" src="./imagenes/SANTANDER.png" alt="">
+        <img class="imagen" src="./imagenes/SCOTIABANK.png" alt="">
+        <img class="imagen" src="./imagenes/BANCOMER.png" alt="">
+        <img class="imagen" src="./imagenes/BANAMEX.png" alt="">
+        <img class="imagen" src="./imagenes/BCP.png" alt="">
+        <img class="imagen" src="./imagenes/INTERBANK.png" alt="">
+        </section>
+        <br>
+      <section class="formSection">
+        <!--Grupo: nombre-->
+        <div class="groupCard" id="group-name">
+          <label for="name" class="label-group">Nombre</label>
+            <input type="text" class="cardInput" name="name" id="name" placeholder="  e. g. Mario Benedetti Farrugia">
+          <div class="nameError error"></div>
+        </div>
+
+        <!--Grupo: número de tarjeta-->
+        <div class="groupCard" id="group-tarjet-number">
+          <label for="card-number" class="label-group">Número de tarjeta</label>
+            <input type="text" class="cardInput" name="cardNumber" id="cardNumber" maxlength="19" placeholder="  e. g. 1234 5678 9123 0000">
+            <div class="cardNumberError error" id="result"></div>
+            <div id="logo"></div>
+          </div>
+
+        <div class="dateCVV"> <!-- grid -->
+          <!-- 1 -->
+        <!--Grupo: fecha de expiración-->
+          <label for="expirationMonth">Fecha de expiración (MM/YY)</label>
+          <!-- 2 -->
+        <!--Grupo: codigo de seguridad-->
+          <label for="securityCode">Código de seguridad (CVV)</label>
+          <!-- 3 -->
+          <div class="date">
+            <div class="cardMonth">
+          <input type="text" class="cardInput" name="expirationMonth" id="expirationMonth" maxlength="2" placeholder="  MM">
+        </div>
+          <div class="cardYear">
+          <input type="text" class="cardInput" name="expirationYear" id="expirationYear" maxlength="2" placeholder="  YY">
+        </div>
+      </div>
+          <!-- 4 -->
+          <input type="text" class="cardInput" name="securityCode" id="securityCode" maxlength="3" placeholder="  123">
+          <!-- 5 -->
+          <div class="errorsContainer">
+          <div class="error-mm error"></div>
+          <div class="error-yy error"></div>
+          </div>
+          <!-- 6 -->
+          <div class="error-cvv error"></div>
+        </div>
+          <div class="cvvimage">
+            <img class="cvvimage" src="./imagenes/CVV.png" alt="">
+          </div>
+        <!--Botón: Realizar pago-->
+          <input type="submit" class="cardButton" value="Realizar pago">
+          <p id="numberValidator"></p>
+          <br>
+        <!--Mensaje de encriptación-->
+    <div class="securityMessaje">
+      <img src="./imagenes/LOGO SEGURIDAD.png" class="security" style="float: left;"/>
+      <p>Tus pagos se realizan de forma segura con encriptaciones de 256 bits</p>
+      </div>
+      </section>
+      </div>
+      </main>
+    <footer>© By <span>Lizbeth Amao Silva</span></footer>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>

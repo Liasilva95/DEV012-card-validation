@@ -1,0 +1,153 @@
+body {
+  background-color: antiquewhite;
+  margin-top: 10px;
+}
+
+main {
+  min-width: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Niramit", sans-serif;
+  font-size: x-large;
+  margin-top: -7px;
+}
+.creditCard {
+  font-family: "Niramit", sans-serif;
+  font-size: medium;
+}
+.debitCard {
+  font-family: "Niramit", sans-serif;
+  font-size: medium;
+}
+.groupCard {
+  font-family: "Niramit", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+.container {
+  background-color: white;
+  align-items: center;
+  padding: 20px 26px 25px;
+  width: 400px;
+  height: 527px;
+  box-shadow: 0 0 15px 15px #c9c7c7;
+  border-radius: 15px;
+}
+
+.image {
+  width: 33px;
+  height: 21px;
+}
+
+.imagen {
+  width: 53px;
+  height: 14px;
+}
+
+.logosCreditCard {
+  display: flex;
+  gap: 29px;
+}
+.logosDebitCard {
+  display: flex;
+  gap: 13px;
+}
+
+.cardInput {
+  border-radius: 5px;
+  width: 98%;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+  text-align: center;
+  height: 20px;
+  outline: none;
+  position: relative;
+  z-index: 1;
+}
+
+#logo {
+  background-position: top center;
+  margin-top: -30px;
+  margin-left: 20px;
+  position: absolute;
+  z-index: 2;
+}
+
+.dateCVV {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0 12px;
+  width: 98%;
+  font-family: "Niramit", sans-serif;
+  font-size: small;
+  font-weight: bold;
+}
+
+.date {
+  display: flex;
+  gap: 6px;
+}
+.cvvimage {
+  width: 100px;
+  height: 60px;
+  padding-left: 148px;
+}
+
+.error {
+  color: rgb(248, 82, 82);
+  font-size: xx-small;
+  margin: -18px 0 8px;
+}
+.errorsContainer {
+  display: flex;
+  gap: 5px;
+}
+.errorsContainer div {
+  width: 100px;
+  text-align: center;
+}
+.cardButton {
+  font-family: "Niramit", sans-serif;
+  font-size: medium;
+  font-weight: bolder;
+  letter-spacing: 3px;
+  border-radius: 10px;
+  background-color: rgb(5, 5, 163);
+  color: white;
+  width: 98%;
+  height: 35px;
+}
+
+.cardButton:hover {
+  cursor: pointer;
+}
+
+.securityMessage {
+  display: flex;
+  gap: 5px;
+}
+
+.security {
+  height: 15px;
+  width: 15px;
+  margin-left: 35px;
+}
+
+p {
+  font-family: "Niramit", sans-serif;
+  font-size: xx-small;
+  margin-left: 15%;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-family: "Niramit", sans-serif;
+  font-size: small;
+}
