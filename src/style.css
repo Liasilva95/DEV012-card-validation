@@ -1,5 +1,8 @@
 body {
-  background-color: antiquewhite;
+  background-image: url("./imagenes/BACKGROUND\ CV.png");
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center;
   margin-top: 10px;
 }
 
@@ -38,6 +41,7 @@ main {
   height: 527px;
   box-shadow: 0 0 15px 15px #c9c7c7;
   border-radius: 15px;
+  margin-top: 15px;
 }
 
 .image {
@@ -46,13 +50,13 @@ main {
 }
 
 .imagen {
-  width: 53px;
+  width: 55px;
   height: 14px;
 }
 
 .logosCreditCard {
   display: flex;
-  gap: 29px;
+  gap: 39px;
 }
 .logosDebitCard {
   display: flex;
@@ -150,4 +154,5 @@ footer {
   text-align: center;
   font-family: "Niramit", sans-serif;
   font-size: small;
+  margin-top: 15px;
 }

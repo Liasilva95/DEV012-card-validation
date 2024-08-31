@@ -6,7 +6,7 @@ buttonValidator.addEventListener("click", numberValidator);
 
 function numberValidator() {
   const bankInputCardNumber = document.querySelector("#cardNumber");
-
+ 
   //Obtener el # de tarjeta ingresado x el usuario
   const bankCardNumber = bankInputCardNumber.value;
 
@@ -14,7 +14,7 @@ function numberValidator() {
   const resultButton = document.querySelector("#result"); //Reemplaza result' con el ID o selector correcto
 
   //Validar el # de tarjeta
-  const isValidNumber = validator.isValid(bankCardNumber);
+  const isValidNumber = validator.isValid(bankCardNumber); // TRUE | FALSE
 
   //Actualizar el resultado en la interfaz de usuario
   if (bankInputCardNumber.value === "") {
@@ -38,7 +38,7 @@ clickButton.addEventListener("click", function () {
   cardButton.value = validator.maskify(cardButton.value); // Asignar el resultado de validator.maskify al valor cardButton
 });
 
-// LOGO EN INPUT CARDNUMBER
+// LOGO DE FRANQUICIA EN INPUT CARDNUMBER
 const logos = {
   // Objeto con los códigos y las imágenes de las tarjetas
   4: "./imagenes/VISA.png", // Visa
@@ -51,10 +51,9 @@ const logos = {
 
 // Función para mostrar el logo correspondiente al valor del input
 function showLogo(value) {
-  for (const code in logos) {
-    // Recorrer las propiedades del objeto logos
-    if (value.startsWith(code)) {
-      // Si el valor empieza con el código de alguna tarjeta
+  for (const code in logos) {     // Recorrer las propiedades del objeto logos
+    if (value.startsWith(code)) {      // Si el valor empieza con el código de alguna tarjeta
+
       logo.innerHTML = "<img src='" + logos[code] + "' width='18' height='15'>"; // Mostrar el logo de esa tarjeta como imagen
 
       return; // Salir de la función
